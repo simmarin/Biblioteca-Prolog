@@ -7,7 +7,10 @@
 
 >Por medio de la programación lógica, se pretende crear un programa que permita visualizar si los libros que se consulten en la base de datos, estén disponibles físicamente.
 
-
+>Prolog está orientado a la resolución de problemas mediante el cálculo de predicados, basado en:
+Preguntas a la base de datos.
+Pruebas matemáticas.
+En el programa prolog especifíca cómo debe ser la solución, en vez de dar el algoritmo para su resolución. La solución se obtiene mediante búsqueda aplicando la lógica de predicados
 
 >++**Problematica:**++
 En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestion:
