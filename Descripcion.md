@@ -19,6 +19,7 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 - Libros que utiliza el docente, no se encuentran en catalogo.
 - Libros prestados y a quien.
 - Fecha De Devolucion Del Prestamo
+- Relacionar libros con maestros
 
 ![concentracion](https://lh3.googleusercontent.com/-Htmd1CpC8WA/WMcucK4r08I/AAAAAAAAPSw/jIZGT4c64EM425yUTAE-UeexSLDF3NDNACLcB/s250/concentraci%25C3%25B3n.jpg "concentración.jpg")
 
