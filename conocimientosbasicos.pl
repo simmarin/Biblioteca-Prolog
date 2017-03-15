@@ -4,6 +4,19 @@ maestro(veronica_quintero).
 maestro(orta_rendon).
 maestro(mario_chong).
 
+esMaestro(X):- maestro(X).
+
+materia(programacion_logica).
+materia(redes_de_computadoras).
+materia(redes_inalambricas).
+materia(automatas_I).
+materia(calculo_diferencial).
+materia(calculo_integreal).
+materia(calculo_vectorial).
+materia(ecuaciones_diferenciales).
+materia(algebra_lineal).
+
+
 
 maestroMateria(jorgeatempa,programacionlogica).
 maestroMateria(jorgeatempa,redesdecomputadoras).
