@@ -62,10 +62,10 @@ Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca
 
 Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca 
 
- Nombre De Libro                 |      Autor       |    Sección       | Fecha De Prestamo
+ Nombre De Libro                 |      Autor       |    Existencia      | Maestro
  ----------------- | ---------------------------- | ------------------
- Calculo Diferencial | Larson            | QA | 13/02/17
- Como Programar En Java          |  P.J Deitel          | QD | 13/02/17
- Programacion En Java          |  P.J Deitel          | QF | 13/02/17
-
-
+  Como Programar En Java |    Deitel         | 2 | Jorge Atempa
+Matematicas 1 Calculo Diferencial            | Dennis G. Zill          | 2 | Jorge Salgado
+Matematicas 2 Calculo Integral         |  Dennis G. Zill        | 2 | Jorge Salgado
+Matematicas 3 Calculo Vectorial         |  Dennis G. Zill        | 1 | Jorge Salgado
+Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martinez Martinez        | 1 | Arnoldo Diaz
