@@ -38,9 +38,9 @@ imparteMateria(X,Y):- maestroMateria(X,Y).
 materiaLibro(programacion_logica,computacional_intelligence).
 materiaLibro(programacion_logica,simply_logical).
 materiaLibro(programacion_logica,introduccion_a_haskell).
-materiaLibro(redes_de_computadoras,introduccion_a_las_redesdedatos).
+materiaLibro(redes_de_computadoras,introduccion_a_las_redes_de_datos).
 materiaLibro(redes_de_computadoras,comunicaciones_digitales).
-materiaLibro(redes_de_computadoras,transmisiondedatos_y_redes_de_comunicacion).
+materiaLibro(redes_de_computadoras,transmision_de_datos_y_redes_de_comunicacion).
 materiaLibro(automatas_1,teoria_de_automatas_y_lenguajes_formales).
 materiaLibro(automatas_1,teoria_de_lacomputacion).
 materiaLibro(calculo_diferencial,matematicas_1).
@@ -62,3 +62,29 @@ materiaLibro(redes_de_computadoras,las_redes).
 materiaLibro(redes_inalambricas,las_redes).
 
 utilizalibro(X,Y):- materiaLibro(X,Y).
+
+libro(computacional_intelligence).
+libro(simply_logical).
+libro(introduccion_a_haskell).
+libro(introduccion_a_las_redes_de_datos).
+libro(comunicaciones_digitales).
+libro(transmision_de_datos_y_redes_de_comunicacion).
+libro(teoria_de_automatas_y_lenguajes_formales).
+libro(teoria_de_lacomputacion).
+libro(matematicas_1).
+libro(calculo_de_las_variables).
+libro(matematicas_2).
+libro(matematicas_avanzadas_de_ingenieria).
+libro(matematicas_3).
+libro(analisis_de_fourier).
+libro(matematicas_avanzadas_para_ingenieria_v1).
+libro(ecuaciones_diferenciales_con_aplicacion_modelada).
+libro(baldor).
+libro(algebra_lineal_y_aplicaciones).
+libro(telecomunicaciones_y_redes).
+libro(redes_informaticas).
+libro(redes_wireless).
+libro(las_redes).
+libro(redes_cisco).
+
+existeLibro(X):- libro(X).
