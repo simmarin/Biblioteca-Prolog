@@ -45,7 +45,7 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 - Fecha De Devolución Del Préstamo
 
-![concentracion](https://lh3.googleusercontent.com/-Htmd1CpC8WA/WMcucK4r08I/AAAAAAAAPSw/jIZGT4c64EM425yUTAE-UeexSLDF3NDNACLcB/s250/concentraci%25C3%25B3n.jpg "concentración.jpg")
+![concentracion](https://github.com/simmarin/Biblioteca-Prolog/blob/master/ImagenLibro/busqueda.jpg?raw=true")
 
 ##++DESARROLLO++
 
@@ -66,3 +66,8 @@ Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martínez Martínez
 ¿Libros en catalogo?
 ¿Que libros se utilizan en la materia?
 ¿Que libros utiliza el maestro?
+
+++imparteMateria(X,Y):- maestroMateria(X,Y).++
+
+* maestroMateria(mario_chong,redes_inalambricas).
+* maestroMateria(mario_chong,conmutacion).
