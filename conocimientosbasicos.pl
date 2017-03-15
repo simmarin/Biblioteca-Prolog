@@ -133,7 +133,7 @@ libro(computacional_intelligence).
 
 libro(simply_logical).
 
-libro(introduccion_a_haskell).
+libro(introduccion_a_la_programacion_funcional_con_haskell).
 
 libro(introduccion_a_las_redes_de_datos).
 
@@ -191,7 +191,7 @@ maestromaterialibro(jorge_atempa,programacion_logica,computacional_intelligence)
 
 maestromaterialibro(jorge_atempa,programacion_logica,simply_logical).
 
-maestromaterialibro(jorge_atempa,programacion_logica,introduccion_a_haskell).
+maestromaterialibro(jorge_atempa,programacion_logica,introduccion_a_la_programacion_funcional_con_haskell).
 
 maestromaterialibro(jorge_atempa,redes_inalambricas,las_redes).
 
