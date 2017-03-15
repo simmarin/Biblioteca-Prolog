@@ -35,3 +35,10 @@ Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca
  Programación En Java          |  P.J Deitel          | QF | 13/02/17
 
 
+##++CONSULTAS A REALIZAR++
+¿Quienes son maestros?
+¿Que materias estan disponibles?
+¿Que maestro imparte la materia?
+¿Libros en catalogo?
+¿Que libros se utilizan en la materia?
+¿Que libros utiliza el maestro?
