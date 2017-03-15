@@ -88,3 +88,16 @@ libro(las_redes).
 libro(redes_cisco).
 
 existeLibro(X):- libro(X).
+
+maestromaterialibro(jorge_salgado,calculo_diferencial,matematicas_1).
+maestromaterialibro(jorge_salgado,calculo_diferencial,calculo_de_las_variables).
+maestromaterialibro(mario_chong,conmutacion,las_redes).
+maestromaterialibro(mario_chong,conmutacion,redes_cisco).
+maestromaterialibro(jorge_atempa,programacion_logica,computacional_intelligence).
+maestromaterialibro(jorge_atempa,programacion_logica,simply_logical).
+maestromaterialibro(jorge_atempa,programacion_logica,introduccion_a_haskell).
+maestromaterialibro(jorge_atempa,redes_inalambricas,las_redes).
+maestromaterialibro(mario_chong,redes_inalambricas,las_redes).
+maestromaterialibro(mario_chong,redes_inalambricas,redes_wireless).
+
+libroutiliza(X,Y,Z):-maestromaterialibro(X,Y,Z).
