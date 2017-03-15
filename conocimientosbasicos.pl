@@ -16,6 +16,7 @@ materia(calculo_vectorial).
 materia(ecuaciones_diferenciales).
 materia(algebra_lineal).
 
+existeMateria(X):- materia(X).
 
 
 maestroMateria(jorgeatempa,programacionlogica).
