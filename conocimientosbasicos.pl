@@ -58,6 +58,7 @@ materiaLibro(redes_inalambricas,redes_informaticas).
 materiaLibro(redes_inalambricas,redes_wireless).
 materiaLibro(conmutacion,las_redes).
 materiaLibro(conmutacion,redes_cisco).
+materiaLibro(redes_de_computadoras,las_redes).
+materiaLibro(redes_inalambricas,las_redes).
 
-
-libroutilizamateria(X,Y):- materiaLibro(X,Y).
+utilizalibro(X,Y):- materiaLibro(X,Y).
