@@ -21,8 +21,8 @@ existeMateria(X):- materia(X).
 
 
 maestroMateria(jorge_atempa,programacion_logica).
-maestroMateria(jorgea_tempa,redes_de_computadoras).
-maestroMateria(jorgea_tempa,redes_inalambricas).
+maestroMateria(jorge_atempa,redes_de_computadoras).
+maestroMateria(jorge_atempa,redes_inalambricas).
 maestroMateria(veronica_quintero,automatas_1).
 maestroMateria(jorge_salgado,calculo_diferencial).
 maestroMateria(jorge_salgado,calculo_integral).
