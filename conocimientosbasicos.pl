@@ -15,19 +15,23 @@ materia(calculo_integreal).
 materia(calculo_vectorial).
 materia(ecuaciones_diferenciales).
 materia(algebra_lineal).
+materia(comnutacion).
 
 existeMateria(X):- materia(X).
 
 
-maestroMateria(jorgeatempa,programacionlogica).
-maestroMateria(jorgeatempa,redesdecomputadoras).
-maestroMateria(veronicaquintero,automatas).
-maestroMateria(jorgesalgado,calculodiferencial).
-maestroMateria(jorgesalgado,integral).
-maestroMateria(jorgesalgado,calculovectorial).
-maestroMateria(jorgesalgado,ecuacionesdiferenciales).
-maestroMateria(ortarendon,ecuacionesdiferenciales).
-maestroMateria(ortarendon,algebralineal).
+maestroMateria(jorge_atempa,programacion_logica).
+maestroMateria(jorgea_tempa,redes_de_computadoras).
+maestroMateria(jorgea_tempa,redes_inalambricas).
+maestroMateria(veronica_quintero,automatas_1).
+maestroMateria(jorge_salgado,calculo_diferencial).
+maestroMateria(jorge_salgado,calculo_integral).
+maestroMateria(jorge_salgado,calculo_vectorial).
+maestroMateria(jorge_salgado,ecuaciones_diferenciales).
+maestroMateria(orta_rendon,ecuaciones_diferenciales).
+maestroMateria(orta_rendon,algebra_lineal).
+maestroMateria(mario_chong,redes_inalambricas).
+maestroMateria(mario_chong,conmutacion).
 
 imparte(X,Y):- maestro(X,Y).
 
