@@ -35,22 +35,29 @@ maestroMateria(mario_chong,conmutacion).
 
 imparteMateria(X,Y):- maestroMateria(X,Y).
 
-materia(programacionlogica,computacionalintelligence).
-materia(programacionlogica,simplylogical).
-materia(programacionlogica,introduccionahaskell).
-materia(redesdecomputadoras,introduccionalasredesdedatos).
-materia(redesdecomputadoras,comunicacionesdigitales).
-materia(redesdecomputadoras,transmisiondedatosyredesdecomunicacion).
-materia(automatas,teoriadeautomatasylenguajesformales).
-materia(automatas,teoriadelacomputacion).
-materia(calculodiferencial,matematicas1).
-materia(calculodiferencial,calculodelasvariables).
-materia(calculointegral,matematicas2).
-materia(calculointegral,matematicasavanzadasdeingenieria).
-materia(calculovectorial,matematicas3).
-materia(calculovectorial,analisisdefourier).
-materia(ecuacionesdiferenciales,matematicasavanzadasparaingenieria).
-materia(ecuacionesdiferenciales,ecuacionesdiferencialesconaplicacionmodelada).
-materia(algebralineal,baldor).
+materiaLibro(programacion_logica,computacional_intelligence).
+materiaLibro(programacion_logica,simply_logical).
+materiaLibro(programacion_logica,introduccion_a_haskell).
+materiaLibro(redes_de_computadoras,introduccion_a_las_redesdedatos).
+materiaLibro(redes_de_computadoras,comunicaciones_digitales).
+materiaLibro(redes_de_computadoras,transmisiondedatos_y_redes_de_comunicacion).
+materiaLibro(automatas_1,teoria_de_automatas_y_lenguajes_formales).
+materiaLibro(automatas_1,teoria_de_lacomputacion).
+materiaLibro(calculo_diferencial,matematicas_1).
+materiaLibro(calculo_diferencial,calculo_de_las_variables).
+materiaLibro(calculo_integral,matematicas_2).
+materiaLibro(calculo_integral,matematicas_avanzadas_de_ingenieria).
+materiaLibro(calculo_vectorial,matematicas_3).
+materiaLibro(calculo_vectorial,analisis_de_fourier).
+materiaLibro(ecuaciones_diferenciales,matematicas_avanzadas_para_ingenieria_v1).
+materiaLibro(ecuaciones_diferenciales,ecuaciones_diferenciales_con_aplicacion_modelada).
+materiaLibro(algebra_lineal,baldor).
+materiaLibro(algebra_lineal,algebra_lineal_y_aplicaciones).
+materiaLibro(redes_inalambricas,telecomunicaciones_y_redes).
+materiaLibro(redes_inalambricas,redes_informaticas).
+materiaLibro(redes_inalambricas,redes_wireless).
+materiaLibro(conmutacion,las_redes).
+materiaLibro(conmutacion,redes_cisco).
 
-libro(X,Y):- materia(X,Y).
+
+libroutilizamateria(X,Y):- materiaLibro(X,Y).
