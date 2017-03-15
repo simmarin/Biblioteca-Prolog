@@ -31,19 +31,19 @@ La programación lógica está basada en la lógica de primer orden LPO (o lógi
 
 
 
-++**Problematica:**++
+++**Problemática:**++
 
-En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestion:
+En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión:
 
-- Si se tiene adeudo no permitir prestamo adicional.
+- Si se tiene adeudo no permitir préstamo adicional.
 
-- La existencia fisica no se consulta en la base de datos.
+- La existencia física no se consulta en la base de datos.
 
-- Libros que utiliza el docente, no se encuentran en catalogo.
+- Libros que utiliza el docente, no se encuentran en catálogo.
 
 - Libros prestados y a quien.
 
-- Fecha De Devolucion Del Prestamo
+- Fecha De Devolución Del Préstamo
 
 
 
@@ -55,17 +55,12 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 ##++DESARROLLO++
 
-
-
-Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca 
-
-
 Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca 
 
  Nombre De Libro                 |      Autor       |    Existencia      | Maestro
  ----------------- | ---------------------------- | ------------------
   Como Programar En Java |    Deitel         | 2 | Jorge Atempa
-Matematicas 1 Calculo Diferencial            | Dennis G. Zill          | 2 | Jorge Salgado
-Matematicas 2 Calculo Integral         |  Dennis G. Zill        | 2 | Jorge Salgado
-Matematicas 3 Calculo Vectorial         |  Dennis G. Zill        | 1 | Jorge Salgado
-Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martinez Martinez        | 1 | Arnoldo Diaz
+Matemáticas 1 Calculo Diferencial            | Dennis G. Zill          | 2 | Jorge Salgado
+Matemáticas 2 Calculo Integral         |  Dennis G. Zill        | 2 | Jorge Salgado
+Matemáticas 3 Calculo Vectorial         |  Dennis G. Zill        | 1 | Jorge Salgado
+Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martínez Martínez        | 1 | Arnoldo Díaz
