@@ -100,4 +100,4 @@ maestromaterialibro(jorge_atempa,redes_inalambricas,las_redes).
 maestromaterialibro(mario_chong,redes_inalambricas,las_redes).
 maestromaterialibro(mario_chong,redes_inalambricas,redes_wireless).
 
-libroutiliza(X,Y,Z):-maestromaterialibro(X,Y,Z).
+libroutiliza(X,Y,Z):-maestromaterialibro(Z).
