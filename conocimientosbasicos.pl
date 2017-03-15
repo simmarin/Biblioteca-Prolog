@@ -1,12 +1,19 @@
-maestro(jorgeatempa,programacionlogica).
-maestro(jorgeatempa,redesdecomputadoras).
-maestro(veronicaquintero,automatas).
-maestro(jorgesalgado,calculodiferencial).
-maestro(jorgesalgado,integral).
-maestro(jorgesalgado,calculovectorial).
-maestro(jorgesalgado,ecuacionesdiferenciales).
-maestro(ortarendon,ecuacionesdiferenciales).
-maestro(ortarendon,algebralineal).
+maestro(jorge_atempa).
+maestro(jorge_salgado).
+maestro(veronica_quintero).
+maestro(orta_rendon).
+maestro(mario_chong).
+
+
+maestroMateria(jorgeatempa,programacionlogica).
+maestroMateria(jorgeatempa,redesdecomputadoras).
+maestroMateria(veronicaquintero,automatas).
+maestroMateria(jorgesalgado,calculodiferencial).
+maestroMateria(jorgesalgado,integral).
+maestroMateria(jorgesalgado,calculovectorial).
+maestroMateria(jorgesalgado,ecuacionesdiferenciales).
+maestroMateria(ortarendon,ecuacionesdiferenciales).
+maestroMateria(ortarendon,algebralineal).
 
 imparte(X,Y):- maestro(X,Y).
 
