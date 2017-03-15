@@ -33,7 +33,7 @@ maestroMateria(orta_rendon,algebra_lineal).
 maestroMateria(mario_chong,redes_inalambricas).
 maestroMateria(mario_chong,conmutacion).
 
-imparte(X,Y):- maestro(X,Y).
+imparteMateria(X,Y):- maestroMateria(X,Y).
 
 materia(programacionlogica,computacionalintelligence).
 materia(programacionlogica,simplylogical).
