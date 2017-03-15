@@ -10,7 +10,11 @@
 >Prolog está orientado a la resolución de problemas mediante el cálculo de predicados, basado en:
 Preguntas a la base de datos.
 Pruebas matemáticas.
-En el programa prolog especifíca cómo debe ser la solución, en vez de dar el algoritmo para su resolución. La solución se obtiene mediante búsqueda aplicando la lógica de predicados
+>La programación lógica está basada en la lógica de primer orden LPO (o lógica de predicados). Un programa PROLOG consiste en un conjunto de sentencias (o fórmulas), de la forma: A :- B1 , ... , Bn . con n ≥ 0.
+
+>* Cuando n>0, la sentencia se escribe A :- B1 , ... , Bn . y se denomina regla.
+
+>* Si n=0, la sentencia se escribe A . y se denomina hecho.
 
 >++**Problematica:**++
 En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestion:
