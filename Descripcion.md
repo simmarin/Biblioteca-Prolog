@@ -45,7 +45,7 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 - no se puede encontrar libros por medio de referencias (color,logo), materias o maestros.
 
 
-![concentracion](https://lh3.googleusercontent.com/-Htmd1CpC8WA/WMcucK4r08I/AAAAAAAAPSw/jIZGT4c64EM425yUTAE-UeexSLDF3NDNACLcB/s250/concentraci%25C3%25B3n.jpg "concentración.jpg")
+![concentracion](https://github.com/simmarin/Biblioteca-Prolog/blob/master/ImagenLibro/busqueda.jpg?raw=true")
 
 ##++DESARROLLO++
 
