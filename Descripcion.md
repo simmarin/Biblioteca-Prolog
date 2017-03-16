@@ -45,6 +45,10 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 ![concentracion](https://github.com/simmarin/Biblioteca-Prolog/blob/master/ImagenLibro/busqueda.jpg?raw=true")
 
 
+
+++**BIBLIOTECLOGIC**++
+Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos implementar una forma diferente de realizar una búsqueda en la base de datos común , adaptamos esa búsqueda similar a como lo haría un estudiante , por medio de lo que se acuerdo de un libro (color y demás características  ) para esta cuestión , la programación lógica es la herramienta y medio más  indicado para lograrlo.
+
 ##++DESARROLLO++
 
 Aquí un ejemplo sencillo de como se muestra la interfaz de biblioteca.
