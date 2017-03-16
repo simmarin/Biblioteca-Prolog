@@ -19,9 +19,7 @@ Preguntas a la base de datos.
 
 Pruebas matemáticas.
 
-<<<<<<< HEAD
 
-=======
 La programación lógica está basada en la lógica de primer orden LPO (o lógica de predicados). Un programa PROLOG consiste en un conjunto de sentencias (o fórmulas), de la forma: A :- B1 , ... , Bn . con n ≥ 0.
 
 
@@ -29,7 +27,7 @@ La programación lógica está basada en la lógica de primer orden LPO (o lógi
 
 
 >* Si n=0, la sentencia se escribe A . y se denomina hecho.
->>>>>>> aa4985f8f244c0960cf2f695405e576468a6f09f
+
 
 ##++PROBLEMÁTICA++
 En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión y búsqueda :
@@ -44,8 +42,8 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 - no se puede encontrar libros por medio de referencias (color,logo), materias o maestros.
 
-
 ![concentracion](https://github.com/simmarin/Biblioteca-Prolog/blob/master/ImagenLibro/busqueda.jpg?raw=true")
+
 
 ##++DESARROLLO++
 
