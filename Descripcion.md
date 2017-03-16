@@ -42,3 +42,4 @@ Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca
 ¿Libros en catalogo?
 ¿Que libros se utilizan en la materia?
 ¿Que libros utiliza el maestro?
+¿Como es el libro?
