@@ -49,15 +49,15 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 ##++DESARROLLO++
 
-Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca.
+Aquí un ejemplo sencillo de como se muestra la interfaz de biblioteca.
 
- Nombre De Libro                 |      Autor       |    Existencia      | Maestro
- ----------------- | ---------------------------- | ------------------
-  Como Programar En Java |    Deitel         | 2 | Jorge Atempa
-Matemáticas 1 Calculo Diferencial            | Dennis G. Zill          | 2 | Jorge Salgado
-Matemáticas 2 Calculo Integral         |  Dennis G. Zill        | 2 | Jorge Salgado
-Matemáticas 3 Calculo Vectorial         |  Dennis G. Zill        | 1 | Jorge Salgado
-Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martínez Martínez        | 1 | Arnoldo Díaz
+ Nombre De Libro                 |      Autor       |    Existencia      | Maestro      | Materia      | Caracteristicas
+ ----------------- | ---------------------------- | ------------------ | ------------------ | ------------------
+Como Programar En Java |    Deitel         | 2 | Jorge Atempa         | Programacion logica | azul, logo-taza
+Matemáticas 1 Calculo Diferencial            | Dennis G. Zill          | 2 | Jorge Salgado         | Calculo diferencial | blanco, buho
+Matemáticas 2 Calculo Integral         |  Dennis G. Zill        | 2 | Jorge Salgado         | Calculo integral | naranja, colibrí
+Matemáticas 3 Calculo Vectorial         |  Dennis G. Zill        | 1 | Jorge Salgado         | Calculo vectorial | azul, ave
+Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martínez Martínez        | 1 | Arnoldo Díaz         | Redes inalambricas | azul, logo-wifi
 
 ##++CONSULTAS A REALIZAR++
 ¿Quienes son maestros?
