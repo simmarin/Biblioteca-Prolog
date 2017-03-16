@@ -66,3 +66,8 @@ Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martínez Martínez
 ¿Libros en catalogo?
 ¿Que libros se utilizan en la materia?
 ¿Que libros utiliza el maestro?
+
+++imparteMateria(X,Y):- maestroMateria(X,Y).++
+
+* maestroMateria(mario_chong,redes_inalambricas).
+* maestroMateria(mario_chong,conmutacion).
