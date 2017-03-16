@@ -43,8 +43,9 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 - Libros prestados y a quien.
 
-- Fecha De Devolución Del Préstamo
-
+- Fecha De Devolución Del Préstamo.
+- 
+- No existe la relacion de los libros que usan los maestros.
 ![concentracion](https://lh3.googleusercontent.com/-Htmd1CpC8WA/WMcucK4r08I/AAAAAAAAPSw/jIZGT4c64EM425yUTAE-UeexSLDF3NDNACLcB/s250/concentraci%25C3%25B3n.jpg "concentración.jpg")
 
 ##++DESARROLLO++
