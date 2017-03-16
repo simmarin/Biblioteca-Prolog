@@ -13,20 +13,19 @@ Pruebas matemáticas.
 En el programa prolog especifica cómo debe ser la solución, en vez de dar el algoritmo para su resolución. La solución se obtiene mediante búsqueda aplicando la lógica de predicados
 
 >++**Problemática:**++
-En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión:
-- Si se tiene adeudo no permitir préstamo adicional.
-- La existencia física no se consulta en la base de datos.
+En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión y búsqueda :
+- la búsqueda para un libro no es precisa.
+- la información de libros en la base de datos no es congruente con la existencia física.
 - Libros que utiliza el docente, no se encuentran en catálogo.
-- Libros prestados y a quien.
-- Fecha De Devolución Del Préstamo
-- Relacionar libros con maestros
+- No existe relación entre las materias y los libros que se utilizan.
+- no se puede encontrar libros por medio de referencias (color,logo), materias o maestros.
 
 ![concentracion](https://lh3.googleusercontent.com/-Htmd1CpC8WA/WMcucK4r08I/AAAAAAAAPSw/jIZGT4c64EM425yUTAE-UeexSLDF3NDNACLcB/s250/concentraci%25C3%25B3n.jpg "concentración.jpg")
 
 
 ##++DESARROLLO++
 
-Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca 
+Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca.
 
  Nombre De Libro                 |      Autor       |    Sección       | Fecha De Préstamo
  ----------------- | ---------------------------- | ------------------
