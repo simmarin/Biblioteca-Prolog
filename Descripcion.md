@@ -29,11 +29,6 @@ La programación lógica está basada en la lógica de primer orden LPO (o lógi
 >* Si n=0, la sentencia se escribe A . y se denomina hecho.
 
 
-- - - -
-++**BIBLIOTECLOGIC**++
-Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos implementar una forma diferente de realizar una búsqueda en la base de datos común , adaptamos esa búsqueda similar a como lo haría un estudiante , por medio de lo que se acuerdo de un libro (color y demás características  ) para esta cuestión , la programación lógica es la herramienta y medio más  indicado para lograrlo.
-
-
 ##++PROBLEMÁTICA++
 En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión y búsqueda :
 
@@ -49,6 +44,10 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 ![concentracion](https://github.com/simmarin/Biblioteca-Prolog/blob/master/ImagenLibro/busqueda.jpg?raw=true")
 
+
+
+++**BIBLIOTECLOGIC**++
+Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos implementar una forma diferente de realizar una búsqueda en la base de datos común , adaptamos esa búsqueda similar a como lo haría un estudiante , por medio de lo que se acuerdo de un libro (color y demás características  ) para esta cuestión , la programación lógica es la herramienta y medio más  indicado para lograrlo.
 
 ##++DESARROLLO++
 
