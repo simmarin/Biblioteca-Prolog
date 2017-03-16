@@ -31,7 +31,7 @@ La programación lógica está basada en la lógica de primer orden LPO (o lógi
 >* Si n=0, la sentencia se escribe A . y se denomina hecho.
 >>>>>>> aa4985f8f244c0960cf2f695405e576468a6f09f
 
-++**Problemática:**++
+##++PROBLEMÁTICA++
 En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión y búsqueda :
 
 - la búsqueda para un libro no es precisa.
