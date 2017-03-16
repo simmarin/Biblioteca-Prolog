@@ -36,6 +36,8 @@ Aqui un ejemplo sencillo de como se muestra la interfaz de biblioteca
 
 
 ##++CONSULTAS A REALIZAR++
+Esta es una serie de pregunta propuestas para este trabajo.
+
 ¿Quienes son maestros?
 ¿Que materias estan disponibles?
 ¿Que maestro imparte la materia?
