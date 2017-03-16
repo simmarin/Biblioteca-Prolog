@@ -66,6 +66,8 @@ Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martínez Martínez
 ¿Libros en catalogo?
 ¿Que libros se utilizan en la materia?
 ¿Que libros utiliza el maestro?
+¿cuales son las caracteristicas del libro?
+¿cual libro contiene cierto color o logo?
 
 ++imparteMateria(X,Y):- maestroMateria(X,Y).++
 
