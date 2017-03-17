@@ -44,6 +44,8 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 ![concentracion](https://github.com/simmarin/Biblioteca-Prolog/blob/master/ImagenLibro/busqueda.jpg?raw=true")
 
+++**Solución**++
+Es el acceso a los libros que buscamos para evitar contratiempos y poder identificarlos los más rápido posible de lo normal. Y Proporcionar una búsqueda más amigable entre la relación de  maestros, materias y libros que se pueden usar en ellas.
 
 
 ++**BIBLIOTECLOGIC**++
