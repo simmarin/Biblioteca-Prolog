@@ -78,3 +78,5 @@ Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martínez Martínez
 
 * maestroMateria(mario_chong,redes_inalambricas).
 * maestroMateria(mario_chong,conmutacion).
+
+![diagrama](https://lh3.googleusercontent.com/DaLSMcWUWfohdlkENQyPrtyCpahjvPSmcd8FlJww1nqAgFztLl-1WPO_xlbKFflOFhG_-qSx=s500 "diagrama prolog.png")
