@@ -64,16 +64,19 @@ Matemáticas 3 Calculo Vectorial         |  Dennis G. Zill        | 1 | Jorge Sa
 Fundamentos De Telecomunicaciones Y Redes          |  Evelio Martínez Martínez        | 1 | Arnoldo Díaz         | Redes inalambricas | azul, logo-wifi
 
 ##++CONSULTAS A REALIZAR++
-¿Quienes son maestros?
-¿Que materias estan disponibles?
-¿Que maestro imparte la materia?
+¿Quiénes son maestros?
+¿Qué materias están disponibles?
+¿Qué maestro imparte la materia?
 ¿Libros en catalogo?
-¿Que libros se utilizan en la materia?
-¿Que libros utiliza el maestro?
-¿cuales son las caracteristicas del libro?
-¿cual libro contiene cierto color o logo?
+¿Qué libros se utilizan en la materia?
+¿Qué libros utiliza el maestro?
+¿Cuáles son las características del libro?
+¿Cuál libro contiene cierto color o logo?
+
 
 ++imparteMateria(X,Y):- maestroMateria(X,Y).++
 
 * maestroMateria(mario_chong,redes_inalambricas).
 * maestroMateria(mario_chong,conmutacion).
+
+![diagrama](https://lh3.googleusercontent.com/DaLSMcWUWfohdlkENQyPrtyCpahjvPSmcd8FlJww1nqAgFztLl-1WPO_xlbKFflOFhG_-qSx=s500 "diagrama prolog.png")
