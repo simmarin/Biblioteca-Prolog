@@ -65,7 +65,7 @@ comoeslibro(X,Y,Z):-clibro(X,Y,Z).
 * ¿Cuál libro contiene cierto color o logo? 
 
 
-####Como se realizan las consultas:
+#### Como se realizan las consultas:
 
 * ¿Qué maestros imparten la materia de conmutación?
 * ¿Que maestros utilizan el libro las redes en la materia de redes inalámbricas?
@@ -93,3 +93,5 @@ Para un futuro, a este proyecto se le puede agregar mejoras, así cómo mas hech
 
 ## Referencia de documento base.
 https://github.com/SDKE/Programacion-Logica-y-Funcional
+https://www.infor.uva.es/~calonso/IAI/PracticasProlog/Tema4/Tema%204.%20Estructuras%20de%20Control.pdf 
+http://www.sc.ehu.es/jiwhehum2/prolog/Temario/Tema1.pdf 
