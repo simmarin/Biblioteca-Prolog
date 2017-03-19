@@ -1,7 +1,7 @@
 # BIBLIOTECLOGIC
 ![enter image description here](https://lh3.googleusercontent.com/WWmZYN0Nj4SVgCeyMjdl4HlZ-4dwoN7YKy7ZuM30BN2usn_D9DHnp05_STjtUm7gcVRq0fQf=s250 "libros.jpg")
 
-## Introducción
+### Introducción
 > Es una colección de material de información organizada para que pueda acceder a ella un grupo de usuarios. Tiene personal encargado de los servicios y programas relacionados con las necesidades de información de los lectores.
 >Por medio de la programación lógica, se pretende crear un programa que permita visualizar si los libros que se consulten en la base de datos, estén disponibles físicamente.
 
@@ -48,14 +48,14 @@ materia(programacion_logica).
 clibro(introduccion_a_haskell,gris,cuadroslateral). 
 ~~~
 
-#### Reglas
+### Reglas
 Relación entre los maestros, las materias, los libros que usa y las características de este
 ~~~
 imparteMateria(X,Y):- maestroMateria(X,Y). 
 libroutiliza(X,Y,Z):-maestromaterialibro(X,Y,Z). 
 comoeslibro(X,Y,Z):-clibro(X,Y,Z). 
 ~~~
-#### Consultas a realizar
+### Consultas a realizar
 * ¿Quiénes son maestros? 
 * ¿Qué materias están disponibles? 
 * ¿Qué maestro imparte la materia? 
@@ -65,7 +65,7 @@ comoeslibro(X,Y,Z):-clibro(X,Y,Z).
 * ¿Cuáles son las características del libro? 
 * ¿Cuál libro contiene cierto color o logo? 
 
-#### Como se realizan las consultas: Caso y solución.
+### Como se realizan las consultas: Caso y solución.
 
 * ¿Qué maestros imparten la materia de conmutación?
 * ¿Que maestros utilizan el libro las redes en la materia de redes inalámbricas?
@@ -86,10 +86,10 @@ Tabla de como debería de aparecer en el sistema cuando se realice la búsqueda 
 | Las redes   | redes_inalambricas & conmutación  |blanco, líneas|Mário Chong & Jorge Atempa|Redes Inalambricas & Conmutación|
 
   
-## Trabajo futuro
+### Trabajo futuro
 
 Este proyecto, como se ha mostrado se basa en una forma diferente de hacer una búsqueda, enfocándose más es una situación acercada a la realidad, una situación en la que un estudiante le suele pasar, que se olvide del nombre del libro, así que, por medio de prolog y sus consultas, se puede deducir en realidad que es lo que busca el estudiante.
 Para un futuro, a este proyecto se le puede agregar mejoras, así cómo mas hechos, reglas que puedan mejorar las consultas, que permitan una búsqueda más eficaz.
 
-## Referencia de documento base.
+### Referencia de documento base.
 https://github.com/SDKE/Programacion-Logica-y-Funcional
