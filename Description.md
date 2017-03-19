@@ -64,6 +64,13 @@ comoeslibro(X,Y,Z):-clibro(X,Y,Z).
 * ¿Cuál libro contiene cierto color o logo? 
 
 
+Como se realizan las consultas:
+~~~
+imparteMateria(X,Y):- maestroMateria(X,conmutacion). 
+libroutiliza(X,Y,Z):-maestromaterialibro(X,redes_inalambricas,las redes). 
+comoeslibro(X,Y,Z):-clibro(X,rojo,lineasydatos). 
+~~~
+
 Tabla de como deberia de aparecer en el sistema cuando se realize la busqueda de algun libro. Relacion libro-materia junto con el profesor que lo utiliza y materia.
 
 | Libro| Materia Utiliza | Caracteristicas |Maestro | Maestro Materia |
