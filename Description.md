@@ -95,4 +95,5 @@ Para un futuro, a este proyecto se le puede agregar mejoras, así cómo mas hech
 * https://github.com/SDKE/Programacion-Logica-y-Funcional
 
 * https://www.infor.uva.es/~calonso/IAI/PracticasProlog/Tema4/Tema%204.%20Estructuras%20de%20Control.pdf 
-http://www.sc.ehu.es/jiwhehum2/prolog/Temario/Tema1.pdf 
+
+* http://www.sc.ehu.es/jiwhehum2/prolog/Temario/Tema1.pdf 
