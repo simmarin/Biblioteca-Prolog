@@ -15,7 +15,7 @@ La programación lógica está basada en la lógica de primer orden LPO (o lógi
 * Cuando n>0, la sentencia se escribe A :- B1 , ... , Bn . y se denomina regla.
 * Si n=0, la sentencia se escribe A . y se denomina hecho.
 
-### problemática
+### Problemática
 En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión y búsqueda :
 
 - la búsqueda para un libro no es precisa.
@@ -26,7 +26,7 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 - No existe relación entre las materias y los libros que se utilizan.
 
-- no se puede encontrar libros por medio de referencias (color, logo), materias o maestros.
+- No se puede encontrar libros por medio de referencias (color, logo), materias o maestros.
 
 ![concentracion](https://github.com/simmarin/Biblioteca-Prolog/blob/master/ImagenLibro/busqueda.jpg?raw=true")
 
@@ -37,6 +37,7 @@ Es el acceso a los libros que buscamos para evitar contratiempos y poder identif
 Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos implementar una forma diferente de realizar una búsqueda en la base de datos común, adaptamos esa búsqueda similar a como lo haría un estudiante , por medio de lo que se acuerdo de un libro (color y demás características  ) para esta cuestión , la programación lógica es la herramienta y medio más  indicado para lograrlo.
 
 ## DESARROLLO
+Este diagrama representa la relación de como un maestro imparte una materia y en dicha materia utiliza diferentes libros.
 ![diagrama](https://lh3.googleusercontent.com/DaLSMcWUWfohdlkENQyPrtyCpahjvPSmcd8FlJww1nqAgFztLl-1WPO_xlbKFflOFhG_-qSx=s500 "diagrama prolog.png")
 ### Hechos
 primero se establecer la existencia del maestro, las materias y los libros
@@ -64,7 +65,13 @@ comoeslibro(X,Y,Z):-clibro(X,Y,Z).
 * ¿Cuál libro contiene cierto color o logo? 
 
 
-Como se realizan las consultas:
+####Como se realizan las consultas:
+
+* ¿Qué maestros imparten la materia de conmutación?
+* ¿Que maestros utilizan el libro las redes en la materia de redes inalámbricas?
+* ¿Cuál es el nombre del libro que contiene las siguientes características?
+
+
 ~~~
 imparteMateria(X,Y):- maestroMateria(X,conmutacion). 
 libroutiliza(X,Y,Z):-maestromaterialibro(X,redes_inalambricas,las redes). 
