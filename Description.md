@@ -1,4 +1,4 @@
-# Biblioteca
+# BIBLIOTECLOGIC
 ![enter image description here](https://lh3.googleusercontent.com/WWmZYN0Nj4SVgCeyMjdl4HlZ-4dwoN7YKy7ZuM30BN2usn_D9DHnp05_STjtUm7gcVRq0fQf=s250 "libros.jpg")
 
 # INTRODUCCIÓN
@@ -15,7 +15,7 @@ La programación lógica está basada en la lógica de primer orden LPO (o lógi
 * Cuando n>0, la sentencia se escribe A :- B1 , ... , Bn . y se denomina regla.
 * Si n=0, la sentencia se escribe A . y se denomina hecho.
 
-# PROBLEMÁTICA
+# problemática
 En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión y búsqueda :
 
 - la búsqueda para un libro no es precisa.
@@ -33,10 +33,11 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 # Solución
 Es el acceso a los libros que buscamos para evitar contratiempos y poder identificarlos los más rápido posible de lo normal. Y Proporcionar una búsqueda más amigable entre la relación de  maestros, materias y libros que se pueden usar en ellas.
 
-# BIBLIOTECLOGIC
+# ¿Porqué "biblioteclogic"?
 Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos implementar una forma diferente de realizar una búsqueda en la base de datos común , adaptamos esa búsqueda similar a como lo haría un estudiante , por medio de lo que se acuerdo de un libro (color y demás características  ) para esta cuestión , la programación lógica es la herramienta y medio más  indicado para lograrlo.
 
-# CONSULTAS A REALIZAR
+# DESARROLLO
+# Consultas a realizar
 ¿Quiénes son maestros?
 ¿Qué materias están disponibles?
 ¿Qué maestro imparte la materia?
