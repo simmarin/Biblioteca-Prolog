@@ -37,6 +37,7 @@ Es el acceso a los libros que buscamos para evitar contratiempos y poder identif
 Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos implementar una forma diferente de realizar una búsqueda en la base de datos común , adaptamos esa búsqueda similar a como lo haría un estudiante , por medio de lo que se acuerdo de un libro (color y demás características  ) para esta cuestión , la programación lógica es la herramienta y medio más  indicado para lograrlo.
 
 ## DESARROLLO
+![diagrama](https://lh3.googleusercontent.com/DaLSMcWUWfohdlkENQyPrtyCpahjvPSmcd8FlJww1nqAgFztLl-1WPO_xlbKFflOFhG_-qSx=s500 "diagrama prolog.png")
 ### Hechos
 primero se establecer la existencia del maestro, las materias y los libros
 ~~~
