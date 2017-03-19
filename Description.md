@@ -62,10 +62,13 @@ comoeslibro(X,Y,Z):-clibro(X,Y,Z).
 ¿Cuáles son las características del libro? 
 ¿Cuál libro contiene cierto color o logo? 
 
-tabla: 
-| Nombre De Libro | Autor | Maestro | 
-| ---------- | ---------- | ---------- | 
-| Como Programar En Java   | Deitel    | Jorge Atempa   | 
+
+Tabla de como deberia de aparecer en el sistema cuando se realize la busqueda de algun libro. Relacion libro-materia junto con el profesor que lo utiliza y materia.
+
+| Libro| Materia Utiliza | Caracteristicas |Maestro | Maestro Materia |
+| ---------- | ---------- | ---------- | ---------- |---------- |
+| Introduccion a haskell   | Programacion Logica   |gris, cuadoslateral|Jorge Atempa|Programacion Logica|
+| Las redes   | redes_inalambricas & conmutacion  |blanco, lineas|Mario Chong & Jorge Atempa|Redes Inalambricas & Conmutacion|
 
   
 ## TRABAJO FUTURO
