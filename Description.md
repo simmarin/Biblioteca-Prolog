@@ -92,6 +92,7 @@ Este proyecto, como se ha mostrado se basa en una forma diferente de hacer una b
 Para un futuro, a este proyecto se le puede agregar mejoras, así cómo mas hechos, reglas que puedan mejorar las consultas, que permitan una búsqueda más eficaz.
 
 ## Referencia de documento base.
-https://github.com/SDKE/Programacion-Logica-y-Funcional
-https://www.infor.uva.es/~calonso/IAI/PracticasProlog/Tema4/Tema%204.%20Estructuras%20de%20Control.pdf 
+* https://github.com/SDKE/Programacion-Logica-y-Funcional
+
+* https://www.infor.uva.es/~calonso/IAI/PracticasProlog/Tema4/Tema%204.%20Estructuras%20de%20Control.pdf 
 http://www.sc.ehu.es/jiwhehum2/prolog/Temario/Tema1.pdf 
