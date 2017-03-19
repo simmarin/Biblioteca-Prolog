@@ -1,7 +1,7 @@
 # BIBLIOTECLOGIC
 ![enter image description here](https://lh3.googleusercontent.com/WWmZYN0Nj4SVgCeyMjdl4HlZ-4dwoN7YKy7ZuM30BN2usn_D9DHnp05_STjtUm7gcVRq0fQf=s250 "libros.jpg")
 
-# INTRODUCCIÓN
+## INTRODUCCIÓN
 > Es una colección de material de información organizada para que pueda acceder a ella un grupo de usuarios. Tiene personal encargado de los servicios y programas relacionados con las necesidades de información de los lectores.
 >Por medio de la programación lógica, se pretende crear un programa que permita visualizar si los libros que se consulten en la base de datos, estén disponibles físicamente.
 
@@ -15,7 +15,7 @@ La programación lógica está basada en la lógica de primer orden LPO (o lógi
 * Cuando n>0, la sentencia se escribe A :- B1 , ... , Bn . y se denomina regla.
 * Si n=0, la sentencia se escribe A . y se denomina hecho.
 
-# problemática
+### problemática
 En la biblioteca del tecnológico se han detectado los siguientes problemas con la gestión y búsqueda :
 
 - la búsqueda para un libro no es precisa.
@@ -30,14 +30,25 @@ En la biblioteca del tecnológico se han detectado los siguientes problemas con 
 
 ![concentracion](https://github.com/simmarin/Biblioteca-Prolog/blob/master/ImagenLibro/busqueda.jpg?raw=true")
 
-# Solución
+### Solución
 Es el acceso a los libros que buscamos para evitar contratiempos y poder identificarlos los más rápido posible de lo normal. Y Proporcionar una búsqueda más amigable entre la relación de  maestros, materias y libros que se pueden usar en ellas.
 
-# ¿Porqué "biblioteclogic"?
+### ¿Porqué "biblioteclogic"?
 Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos implementar una forma diferente de realizar una búsqueda en la base de datos común , adaptamos esa búsqueda similar a como lo haría un estudiante , por medio de lo que se acuerdo de un libro (color y demás características  ) para esta cuestión , la programación lógica es la herramienta y medio más  indicado para lograrlo.
 
-# DESARROLLO
-# Consultas a realizar
+## DESARROLLO
+### Hechos
+primero se establecer la existencia del maestro, las materias y los libros
+maestro(jorge_atempa).
+materia(programacion_logica).
+clibro(introduccion_a_haskell,gris,cuadroslateral).
+#### Reglas
+Relación entre los maestro, las materias, los libros que usa y las caracteristicas de este
+imparteMateria(X,Y):- maestroMateria(X,Y).
+libroutiliza(X,Y,Z):-maestromaterialibro(X,Y,Z).
+comoeslibro(X,Y,Z):-clibro(X,Y,Z).
+
+#### Consultas a realizar
 ¿Quiénes son maestros?
 ¿Qué materias están disponibles?
 ¿Qué maestro imparte la materia?
@@ -47,11 +58,11 @@ Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos impleme
 ¿Cuáles son las características del libro?
 ¿Cuál libro contiene cierto color o logo?
 
-
-> imparteMateria(X,Y):- maestroMateria(X,Y).
-
-* maestroMateria(mario_chong,redes_inalambricas).
-* maestroMateria(mario_chong,conmutacion).
-
+tabla:
  |Nombre De Libro                 |      Autor       |    Existencia      | Maestro 
   Como Programar En Java |    Deitel         | 2 | Jorge Atempa
+  
+## TRABAJO FUTURO
+
+Este proyecto, como se ha mostardo se basa en una forma diferente de hacer una búsqueda, enfocándose mas es una situación acercada a la realidad, una situacion en la que un estudiante le suele pasar, que se olvide del nombre del libro, asi que, por medio de prolog y sus consultas , se puede deducir en realidad que es lo que busca el estudiante.
+Para un futuro, a este proyecto se le puede agregar mejoras, asi cómo mas hechos,  reglas que puedan mejorar las consultas, que permitan una busqueda mas eficaz. 
