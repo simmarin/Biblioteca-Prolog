@@ -38,6 +38,7 @@ Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos impleme
 
 ## Desarollo
 Este diagrama representa la relación de como un maestro imparte una materia y en dicha materia utiliza diferentes libros.
+
 ![diagrama](https://lh3.googleusercontent.com/DaLSMcWUWfohdlkENQyPrtyCpahjvPSmcd8FlJww1nqAgFztLl-1WPO_xlbKFflOFhG_-qSx=s500 "diagrama prolog.png")
 ### Hechos
 primero se establecer la existencia del maestro, las materias y los libros
@@ -64,8 +65,7 @@ comoeslibro(X,Y,Z):-clibro(X,Y,Z).
 * ¿Cuáles son las características del libro? 
 * ¿Cuál libro contiene cierto color o logo? 
 
-
-####Como se realizan las consultas:
+#### Como se realizan las consultas: Caso y solución.
 
 * ¿Qué maestros imparten la materia de conmutación?
 * ¿Que maestros utilizan el libro las redes en la materia de redes inalámbricas?
