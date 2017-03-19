@@ -39,15 +39,19 @@ Se formuló al mezclar biblioteca y Prolog, lo escogimos porque queremos impleme
 ## DESARROLLO
 ### Hechos
 primero se establecer la existencia del maestro, las materias y los libros
-maestro(jorge_atempa).
-materia(programacion_logica).
-clibro(introduccion_a_haskell,gris,cuadroslateral).
+~~~
+maestro(jorge_atempa). 
+materia(programacion_logica). 
+clibro(introduccion_a_haskell,gris,cuadroslateral). 
+~~~
+
 #### Reglas
 Relación entre los maestro, las materias, los libros que usa y las caracteristicas de este
-imparteMateria(X,Y):- maestroMateria(X,Y).
-libroutiliza(X,Y,Z):-maestromaterialibro(X,Y,Z).
-comoeslibro(X,Y,Z):-clibro(X,Y,Z).
-
+~~~
+imparteMateria(X,Y):- maestroMateria(X,Y). 
+libroutiliza(X,Y,Z):-maestromaterialibro(X,Y,Z). 
+comoeslibro(X,Y,Z):-clibro(X,Y,Z). 
+~~~
 #### Consultas a realizar
 ¿Quiénes son maestros?
 ¿Qué materias están disponibles?
@@ -59,8 +63,10 @@ comoeslibro(X,Y,Z):-clibro(X,Y,Z).
 ¿Cuál libro contiene cierto color o logo?
 
 tabla:
- |Nombre De Libro                 |      Autor       |    Existencia      | Maestro 
-  Como Programar En Java |    Deitel         | 2 | Jorge Atempa
+ 
+Nombre De Libro  | Autor   | Maestro
+-- | --
+Como Programar En Java |  Deitel  | Jorge Atempa
   
 ## TRABAJO FUTURO
 
