@@ -53,20 +53,20 @@ libroutiliza(X,Y,Z):-maestromaterialibro(X,Y,Z).
 comoeslibro(X,Y,Z):-clibro(X,Y,Z). 
 ~~~
 #### Consultas a realizar
-¿Quiénes son maestros?
-¿Qué materias están disponibles?
-¿Qué maestro imparte la materia?
-¿Libros en catalogo?
-¿Qué libros se utilizan en la materia?
-¿Qué libros utiliza el maestro?
-¿Cuáles son las características del libro?
-¿Cuál libro contiene cierto color o logo?
+¿Quiénes son maestros? 
+¿Qué materias están disponibles? 
+¿Qué maestro imparte la materia? 
+¿Libros en catalogo? 
+¿Qué libros se utilizan en la materia? 
+¿Qué libros utiliza el maestro? 
+¿Cuáles son las características del libro? 
+¿Cuál libro contiene cierto color o logo? 
 
-tabla:
- 
-Nombre De Libro  | Autor   | Maestro
--- | --
-Como Programar En Java |  Deitel  | Jorge Atempa
+tabla: 
+| Nombre De Libro | Autor | Maestro |
+| ---------- | ---------- | ---------- |
+| Como Programar En Java   | Deitel    | Jorge Atempa   |
+
   
 ## TRABAJO FUTURO
 
