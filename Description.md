@@ -63,9 +63,9 @@ comoeslibro(X,Y,Z):-clibro(X,Y,Z).
 ¿Cuál libro contiene cierto color o logo? 
 
 tabla: 
-| Nombre De Libro | Autor | Maestro |
-| ---------- | ---------- | ---------- |
-| Como Programar En Java   | Deitel    | Jorge Atempa   |
+| Nombre De Libro | Autor | Maestro | 
+| ---------- | ---------- | ---------- | 
+| Como Programar En Java   | Deitel    | Jorge Atempa   | 
 
   
 ## TRABAJO FUTURO
